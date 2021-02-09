@@ -1,0 +1,93 @@
+body{	
+	background-color: white;
+	color: black;
+	font-family: Arial,Helvetica,Sans-Serif;
+	font-size: 16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:DarkBlue;
+	color:white;
+
+}
+
+#navbar{
+	background-color:gray;
+	color:black;
+}
+
+#navbar ul {
+	padding: 0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+
+}
+
+#showcase{
+	background-image:url('../images/herbs-spices.jpg');
+	background-position:center right;
+	min-height:200px;
+	margin-bottom:; 30px;
+	text-align:center;
+
+}
+
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+
+}
+
+#main{
+	float:left;
+	width:100%;
+	padding:0 30px;
+	box-sizing: border-box;
+
+}
+
+/*#sidebar{
+	float:right;
+	width:30%;
+	background:gray;
+	color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top:20px;
+}*/
+
+#main-footer{
+	background:gray;
+	color:white;
+	text-align:center;
+	padding:10px;
+	margin-top:40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+}
