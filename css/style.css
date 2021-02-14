@@ -13,6 +13,11 @@ body{
 	overflow:hidden;
 }
 
+.container a {
+	color: rgb(55, 0, 255);
+	text-decoration: none;
+}
+
 #main-header{
 	background-color:DarkBlue;
 	color:white;
