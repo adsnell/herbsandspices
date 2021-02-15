@@ -47,7 +47,7 @@ body{
 }
 
 #showcase{
-	background-image:url('../images/herbs-spices.jpg');
+	background-image:url('/images/spices.jpg');
 	background-position:center right;
 	min-height:200px;
 	margin-bottom:; 30px;
